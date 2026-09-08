@@ -62,5 +62,10 @@
     background: black;
     width: 100%;
     bottom: 0;
-}
+    }
+
+    #comentarios-titulo{
+        font-size: 6vw
+    }
+
 }
