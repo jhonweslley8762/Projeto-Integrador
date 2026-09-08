@@ -1,0 +1,66 @@
+@media (max-width: 768px) {
+    
+    .header a {
+        font-size: 5.5vw;
+        text-decoration: none;
+        color: white;
+    }
+
+    .header button {
+        font-size: 5.5vw;
+    }
+
+    .header-modo a {
+        font-size: 5.5vw;
+        text-decoration: none;
+        color: rgb(253, 253, 253);
+    }
+
+    #btnGoogle {
+        width: 40vw;
+        height: 8vw;
+        border-radius: 2vw;
+        background: rgb(189, 0, 164);
+        border-color: white;
+        font-size: 4.3vw;
+        color: white;
+    }
+
+    .area-login-modo{
+        margin: 2vw;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        gap: 5vw;
+    }
+    
+    .banner{
+        height: 60vw;
+    }
+
+    .barra{
+        width: 16vw;
+        height: 6vw;
+    }
+
+    .bolinha{
+        height: 5vw;
+        width: 5vw;
+        margin-top: 0.5vw;
+    }
+
+    .açao{
+        margin-left: 66%;
+    }
+
+    .footer-site {
+    height: 20vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    background: black;
+    width: 100%;
+    bottom: 0;
+}
+}

@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mesas</title>
+    <link rel="stylesheet" href="../css/style.css">
+    <link rel="stylesheet" href="../css/index.css">
+    <link rel="stylesheet" href="../css/mesa.css">
+    <script src="https://accounts.google.com/gsi/client" async defer></script>
+</head>
+<body>
+    <div class="container-site">
+        <header class="header" id="header-principal">
+            <div class="livro-div">
+                <a href="../index.html">início</a>
+                <a href="#">sistema</a>
+                <a href="#">tutorial</a>
+            </div>
+            <div id="opções">
+                <a href="../html/fichaPag.html">fichas</a>
+                <a href="../html/mesaPag.html">mesas</a>
+                <a href="#">criaturas</a>
+                <a href="#">ações</a>
+            </div>
+            <div class="area-login-modo">
+                <div id="login">
+                    <button id="btnGoogle" class="loginBotao">
+                        Entrar com Google
+                    </button>
+                </div>
+                <div class="barra" id="barra">
+                    <div class="bolinha" id="bolinha"></div>
+                </div>
+
+                <div class="perfil"></div>
+            </div>
+        </header>
+
+        <h1 id="titulo-mesa">Criação e gerenciamento de mesas</h1>
+        <div class="divisão-criação"></div>
+
+        <div class="container-topo">
+            <div class="entrar-mesas">
+                <h1 id="entrar-btn">entrar</h1>
+            </div>
+    
+            <div class="criação-mesa">
+                <h1 id="criar-mesa">cria nova mesa</h1>
+                <h1 id="adicionar-mesa">+</h1>
+            </div>
+        </div>
+
+        <div class="mesas-div">
+            <!-- aqui vai ser a área das mesas
+            caso não tiver mesas, dirá "nenhuma mesa encontrada" -->
+        </div>
+
+    </div>
+    <script src="../js/API.js"></script>
+</body>
+</html>

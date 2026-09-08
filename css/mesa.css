@@ -1,0 +1,71 @@
+.divisão-criação {
+    background: black;
+    width: 90vw;
+    height: 0.5vw;
+    border-radius: 5vw
+}   
+
+@media (max-width: 768px) {
+    .divisão-criação {
+        background: black;
+        width: 91vw;
+        height: 1.1vw;
+        border-radius: 5vw;
+    }
+    
+    #titulo-mesa {
+        font-size: 6vw;
+    }
+
+    .criação-mesa{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        gap: 2vw;
+    }
+
+    #adicionar-mesa{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        background: white;
+        width: 6vw;
+        height: 6vw;
+        border-radius: 50%;
+    }
+
+    .criação-mesa h1{
+        font-size: 6vw;
+    }
+
+    #entrar-btn{
+        background: green;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        font-size: 6vw;
+        width: 20vw;
+        border-radius: 1.5vw;
+    }
+    .entrar-mesas{
+        margin-right: 25%;
+    }
+
+    .container-topo{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        width: 100%;
+        /* background: blue; */
+    }
+
+    .mesas-div{
+        margin: 3vw;
+        border: solid black 1vw;
+        width: 90vw;
+        height: 30vw;
+        border-radius: 3vw;
+        background: rgb(208, 208, 208);
+    }
+}
+
