@@ -1,0 +1,140 @@
+html,
+body {
+    margin: 0;
+    left: 0;
+    box-sizing: border-box;
+    background: rgb(235, 218, 218);
+}
+
+.container-site {
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.header a {
+    display: grid;
+}
+
+.header-modo {
+    background: grey;
+    grid-template-columns: repeat(3, 10vw);
+}
+
+.header {
+    background: linear-gradient(to bottom, rgb(0, 0, 115), black, rgb(0, 0, 115));
+    background-size: 600% 600%;
+    animation: animar 10s ease infinite;
+    grid-template-columns: repeat(3, 10vw);
+    width: 100%;
+}
+
+@keyframes animar{
+    0%{background-position: 0% 0%}
+    50%{background-position: 0% 100%}
+    100%{background-position: 0% 0%}
+}
+
+.livro-div {
+    margin: 2vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 4vw;
+}
+
+#opções {
+    margin: 2vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 4vw;
+}
+
+#login {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 2vw;
+}
+.banner {
+    width: 100%;
+    height: 50vh;
+    background: rgb(166, 166, 166);
+}
+
+.barra {
+    width: 16vw;
+    height: 40px;
+    background: gray;
+    border-radius: 40px;
+    transition: background-color 0.7s;
+    border-color: white;
+    border-style: solid;
+    border-width: 2px;
+}
+
+.bolinha {
+    height: 34px;
+    width: 34px;
+    background: white;
+    border-radius: 50%;
+    margin-left: 4px;
+    margin-top: 2.5px;
+    transition: margin-left 0.4s;
+}
+
+.area-login-modo {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+}
+
+.açao {
+    margin-left: 60px;
+}
+
+.açaoFundo {
+    background: rgb(0, 151, 0);
+}
+
+.escolha {
+    display: grid;
+    grid-template-columns: repeat(2, 45vw);
+    margin: 1vw 0 7vw 7vw;
+}
+
+.opção{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 40vw;
+    height: 15vw;
+    background: grey;
+    flex-wrap: wrap;
+    margin: 6vw 0 0 0;
+    font-size: 1.5vw;
+    border-radius: 10px;
+}
+
+.area-comentarios{
+    width: 94vw;
+    height: 60vw;
+    border-radius: 5vw;
+    background-color: grey;
+    margin: 0 0 6vw 0;
+}
+
+.footer-site {
+    height: 20vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    background: black;
+    width: 100%;
+    bottom: 0;
+}
